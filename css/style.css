@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.section_title{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.section_subtitle{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.section_text{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background: #0c0c0c;
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+.logo{
+    max-width: 250px;
+}
+.header_menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu_item{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    list-style-type: none;
+    transition: 0.3s;
+}
+.menu_item:hover , .lang_switch:hover{
+    color: #db643c;
+}
+.lang_switch{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: 0.3s;
+}
+.hero_slide{
+    display: flex;
+    height: 600px;
+
+}
+.hero_slide_1{
+    /* background: rgb(219,100,60);
+    background: linear-gradient(98deg, rgba(219,100,60,1) 0%, rgba(0,0,0,1) 100%); */
+    background: url(../img/orangeback\ copy.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.hero_slide_2{
+    background-color: #0E3D5B;
+    justify-content: space-between;
+}
+.hero2_video{
+    position: relative;
+    right: 0;
+}
+.hero_slide_content{
+    max-width: 700px;
+    margin-top: 100px;
+    margin-left: 90px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+
+}
+a{
+    color: inherit;
+}
+.hero_title{
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+.hero_subtitle{
+
+}
+.hero_text{
+    font-size: 35px;
+}
+.hero_lower_text{
+    font-size: 65px;
+}
+.hero_video{
+    position: absolute;
+    right: 0;
+}
+.hero1_button , .hero2_button{
+    padding: 10px 50px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    background: none;
+    background-color: #fff;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.hero1_button:hover , .hero2_button:hover{
+    background: none;
+    color: white;
+}
+.about{
+    background: url(../img/light_back.jpeg);
+    background-size: cover ;
+}
+.about_content{
+    display: flex;
+
+}
+.about_text{
+    max-width: 600px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.about_img{
+    width: 103%;
+    height: 100%;
+}
+.about_left, .about_text{
+    width: 50%;
+}
+.intro{
+    background: url(../img/guitar\ back.jpeg) rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 50px;
+}
+.intro .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.intro_left{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    column-gap: 40px;
+    row-gap: 30px;
+    width: min-content;
+}
+.intro_icon{
+    width: 150px;
+}
+.intro_left_item{
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.intro_title{
+    margin-top: 40px;
+}
+.intro_subtitle{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.intro_title:last-child{
+    margin-top: 150px;
+}
+.intro_left_item:hover{
+    background:none;
+}
+.intro_left_item:hover .intro_icon{
+    filter: invert(1);
+}
+
